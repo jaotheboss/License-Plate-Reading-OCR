@@ -11,6 +11,11 @@ Now that we have a zoomed image of the license plate, we implement a module that
 
 This second method is a lot harder than it sounds. Although churning out the individual digits sounds easy, things we have to consider is whether or not the digit segmentation cares about the order that of the images that is being churned out. Hence, we also had to make sure that when the model detects the segmentation, we are able to label each of these detections in order from left-to-right.
 
+## Evaluation:
+I think more can be done when it comes to cleaning the image before processing it through OpenCV. Perhaps contrasting the image so that OpenCV can better detect rectangles. As of right now the model has trouble looking at images of cars that are taken at night. This could be due to the pixels are being roughly of the same value, and if we reduce the threshold to detect edges, we might end up with more difficulties. 
+
+I think when i come back to this project I'll explore license plate detection on videos in real-time.
+
 ## Images:
 
 #### The Original Image
