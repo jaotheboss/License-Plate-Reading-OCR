@@ -12,3 +12,15 @@ Now that we have a zoomed image of the license plate, we implement a module that
 This second method is a lot harder than it sounds. Although churning out the individual digits sounds easy, things we have to consider is whether or not the digit segmentation cares about the order that of the images that is being churned out. Hence, we also had to make sure that when the model detects the segmentation, we are able to label each of these detections in order from left-to-right.
 
 ## Images:
+
+#### The Original Image
+![Original](https://github.com/jaotheboss/License-Plate-Reading-OCR-/blob/master/example_2.jpg)
+
+#### Annotated Image
+![Annotated](https://github.com/jaotheboss/License-Plate-Reading-OCR-/blob/master/Annotated%20Image.png)
+
+#### Zoomed Image
+![Zoomed](https://github.com/jaotheboss/License-Plate-Reading-OCR-/blob/master/Zoomed%20Image.png)
+
+#### Results
+![Results](https://github.com/jaotheboss/License-Plate-Reading-OCR-/blob/master/Results.png)
